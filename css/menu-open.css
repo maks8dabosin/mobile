@@ -1,0 +1,39 @@
+.page {
+	position: absolute;
+	top: 0;
+	left: 75%;
+}
+
+.page-header {
+	position: absolute;
+}
+
+.page-nav {
+	width: 75%;
+}
+
+.page-nav ul li {
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 2px solid #EAEAEA;
+	padding: 0 3%;
+	display: block;	
+}
+
+.page-nav ul li a {
+	text-decoration: none;
+	color: #000;
+	font-size: 17px;
+}
+
+.exit {
+	width: 100%;
+	background: #EF473A;
+	height: 50px;
+	font-size: 18px;
+	color: #fff;
+	outline: 0;
+	border: 0;
+	margin: 15px 0 0 0;
+	cursor: pointer;
+}
