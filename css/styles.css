@@ -1,0 +1,259 @@
+@import url('reset.css');
+
+@import url('for480-768.css');
+
+
+/*GENERAL*/
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+.smaller-please {
+	display: none;
+}
+
+body {
+	font-size: 100%;
+	font-family: Verdana;
+}
+
+body * {
+	box-sizing: border-box;
+}
+
+::-webkit-input-placeholder {color:#BFBFBF}
+::-moz-placeholder          {color:#BFBFBF}
+:-moz-placeholder           {color:#BFBFBF}
+:-ms-input-placeholder      {color:#BFBFBF}
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
+
+.wrapper {
+	width: 100%;
+	position: absolute;
+	top: 50px;
+}
+
+.page-header {
+	position: fixed;
+	z-index: 50;
+	top: 0;
+	left: 0;
+	height: 50px;
+	background: #11C1F3;
+	width: 100%;
+}
+
+.navbar {
+	padding: 10px;
+	position: absolute;
+	top: 7px;
+	left: 10px;
+	border: 0;
+	outline: 0;
+	background: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.navbar:hover {
+	background: #0E8EC0;
+	border: 1px solid #fff;
+}
+
+.navbar-stripe {
+	width: 20px;
+	height: 2px;
+	display: block;
+	margin: 0 0 4px 0;
+	background: #fff;
+	border-radius: 2px;
+}
+
+.navbar .navbar-stripe:last-child {
+	margin: 0;
+}
+
+.header-header {
+	color: #fff;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.pool-options {
+	
+}
+
+.pool-option {
+	padding: 0 3%;
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 2px solid #EAEAEA;
+}
+
+.pool-option span {
+	display: block;
+	float: left;
+}
+
+.switcher {
+    position: relative; 
+    width: 75px;
+    height: 40px;
+    float: right;
+    border-radius: 40px;
+    margin: 9px 0 0 0;
+    z-index: 1;
+}
+
+.switcher input[type="checkbox"] {
+    display: none;
+}
+
+.switcher-dot {
+    display: block; 
+    cursor: pointer;
+    border: 1px solid #BFBFBF; 
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    margin: -2px 0 0 -2px;
+	box-shadow: 0px 0px 5px 1px #888888;
+	position: absolute;
+	right: 35px;
+	transition: all 0.3s;
+	z-index: 5;
+	background: #fff; 
+}
+
+.switcher input[type="checkbox"]:checked + .switcher-dot {
+	right: 2px;
+	box-shadow: 0px 0px 5px 1px #11C1F3;
+	border: 1px solid #11C1F3; 
+}
+
+.switch-back {
+	position: absolute;
+	width: 75px;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    z-index: 3;
+    margin: -2px 0 0 -2px;
+    border: 2px solid #BFBFBF;
+    transition: all 0.3s;
+}
+
+.switcher input[type="checkbox"]:checked + .switcher-dot + .switch-back {
+	background: #11C1F3;
+	border: 2px solid #11C1F3;
+} 
+
+.pool-search {
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	border: 0;
+	outline: 0;
+	padding: 0 0 0 30px;
+	background: url('../images/search.png') 0 50% no-repeat;
+	color: #BFBFBF;
+	font-size: 16px;
+}
+
+.pool-header {
+	background: #F5F5F5;
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	padding: 0 3%;
+	border-bottom: 2px solid #EAEAEA;
+}
+
+.pool-box {
+	padding: 3%;
+	border-bottom: 2px solid #EAEAEA;
+	display: block;
+	color: #000;
+}
+
+.pool-box:after {
+	content: ' ';
+	display: block;
+	clear: both;
+}
+
+.pb-image {
+	border: 1px solid #ADADAD;
+	float: left;
+	width: 25%;
+}
+
+.pb-image img {
+	display: block;
+	width: 100%;
+}
+
+.pb-info {
+	width: 75%;
+	padding: 0 0 0 3%;
+	float: left;
+}
+
+.pb-name {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.pb-job {
+	font-size: 14px;
+}
+
+.pb-tasks {
+	margin: 10px 0 0 0;
+	font-size: 12px;
+}
+
+.pb-tasks span {
+	font-weight: bold;
+}
+
+@media (min-width: 769px) {
+	.smaller-please {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background: #11C1F3;
+		z-index: 100;
+		display: table;
+		line-height: 100%;
+		font-size: 52px;
+		color: #fff;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.smaller-please-text {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.smaller-please-text span {
+		display: block;
+		font-size: 40px;
+	}
+}
+
+
+
+
+
