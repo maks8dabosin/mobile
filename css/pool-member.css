@@ -1,0 +1,65 @@
+/*Member*/
+
+.e-back {
+	background: url('../images/back.png') 0 50% no-repeat;
+	padding: 0 0 0 25px;
+	height: 30px;
+	color: #fff;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	font-size: 18px;
+	line-height: 30px;
+	text-decoration: none;
+}
+
+.e-member-photo {
+	border-bottom: 2px solid #EAEAEA;
+	text-align: center;
+}
+
+.e-member-photo img {
+	width: 100%;
+	max-width: 380px;
+}
+
+.e-member-info {
+	padding: 0 3%;
+}
+
+.e-member-name {
+	font-size: 22px;
+	padding: 10px 0;
+}
+
+.e-member-job {
+	font-weight: bold;
+}
+
+.e-member-tasks {
+	margin: 25px 0 0 0;
+	border: 2px solid #EAEAEA;
+}
+
+.e-member-group > * {
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	border-bottom: 2px solid #EAEAEA;
+	padding: 0 3%;	
+}
+
+.e-member-group-done > *:last-child {
+	border-bottom: none; 
+}
+
+.e-member-task-header {
+	background: #F5F5F5;
+	font-weight: bold;	
+}
+
+.e-member-task-item {
+	display: block;
+	text-decoration: none;
+	color: #000;
+}

@@ -4,90 +4,86 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>It's mobile!</title>
-		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/menu-open.css">
 		<!--link rel="stylesheet" href="css/for480-768.css"-->
 	</head>
 	<body>
-		<div class="smaller-please">
-			<div class="smaller-please-text">
+		<div class="e-smaller-please">
+			<div class="e-smaller-please-text">
 				Эта вёрстка любит поуже
 				<span>(до 768px)</span>
 			</div>
 		</div>
-		<nav class="page-nav">
+		<nav class="e-page-nav">
 			<ul>
 				<li><a href="pool.html">Pool</a></li>
 				<li><a href="tasks.html">Tasks</a></li>
 			</ul>
-			<button type="button" class="exit">Exit</button>
+			<button type="button" class="e-exit">Exit</button>
 		</nav>
-		<div class="page">
-			<header class="page-header">
-				<button type="button" class="navbar">
-					<span class="navbar-stripe"></span>
-					<span class="navbar-stripe"></span>
-					<span class="navbar-stripe"></span>
+		<div class="e-page">
+			<header class="e-page-header">
+				<button type="button" class="e-navbar">
+					<span class="e-navbar-stripe"></span>
+					<span class="e-navbar-stripe"></span>
+					<span class="e-navbar-stripe"></span>
 				</button>
-				<div class="header-header">
+				<div class="e-header-header">
 					Pool
 				</div>
 			</header>
-			<div class="wrapper">
-				<div class="pool-options">
-					<div class="pool-option">
+			<div class="e-wrapper">
+				<div class="e-pool-options">
+					<div class="e-pool-option">
 						<span>Inactive only</span>
-						<div class="switcher">
+						<div class="e-switcher">
 							<input type="checkbox" name="switch" id="switch">
-						    <label class="switcher-dot" for="switch"></label>
-						    <div class="switch-back"></div>
+						    <label class="e-switcher-dot" for="switch"></label>
+						    <div class="e-switch-back"></div>
 						</div>
 					</div>
-					<div class="pool-option"><input class="pool-search" type="text" placeholder="Search"></div>
+					<div class="e-pool-option"><input class="e-pool-search" type="text" placeholder="Search"></div>
 				</div> <!--pool-options-->
-				<div class="pool-groups">
-					<div class="pool-group pool-group-active">
-						<div class="pool-header">Active</div>
-						<a href="pool-item.html" class="pool-box">
-							<div class="pb-image">
-								<img src="images/nope.png" alt="">
+				<div class="e-pool-groups">
+					<div class="e-pool-header">Active</div>
+					<a href="pool-item.html" class="e-pool-box">
+						<div class="e-pb-image">
+							<img src="images/nope.png" alt="">
+						</div>
+						<div class="e-pb-info">
+							<div class="e-pb-name">Some Guy</div>
+							<div class="e-pb-job">Some Guy's Job</div>
+							<div class="e-pb-tasks">
+								<span>32</span> tasks
 							</div>
-							<div class="pb-info">
-								<div class="pb-name">Some Guy</div>
-								<div class="pb-job">Some Guy's Job</div>
-								<div class="pb-tasks">
-									<span>32</span> tasks
-								</div>
+						</div>
+					</a> <!--pool-box-->
+					<a href="pool-item.html" class="e-pool-box">
+						<div class="e-pb-image">
+							<img src="images/nope.png" alt="">
+						</div>
+						<div class="e-pb-info">
+							<div class="e-pb-name">Other Guy Anderson</div>
+							<div class="e-pb-job">Other Guy's Job</div>
+							<div class="e-pb-tasks">
+								<span>7</span> tasks
 							</div>
-						</a> <!--pool-box-->
-						<a href="pool-item.html" class="pool-box">
-							<div class="pb-image">
-								<img src="images/nope.png" alt="">
-							</div>
-							<div class="pb-info">
-								<div class="pb-name">Other Guy Anderson</div>
-								<div class="pb-job">Other Guy's Job</div>
-								<div class="pb-tasks">
-									<span>7</span> tasks
-								</div>
-							</div>	
-						</a> <!--pool-box-->
-					</div> <!--pool-group-active-->
-					<div class="pool-group pool-group-inactive">
-						<div class="pool-header">Inactive</div>
-						<a href="pool-item.html" class="pool-box">
-							<div class="pb-image">
-								<img src="images/nope.png" alt="">
-							</div>
-							<div class="pb-info">
-								<div class="pb-name">Johny Inactive</div>
-								<div class="pb-job">Doing Something</div>
-							</div>	
-						</a> <!--pool-box-->
-					</div> <!--pool-group-inactive-->
+						</div>	
+					</a> <!--pool-box-->
+					<div class="e-pool-header">Inactive</div>
+					<a href="pool-item.html" class="e-pool-box">
+						<div class="e-pb-image">
+							<img src="images/nope.png" alt="">
+						</div>
+						<div class="e-pb-info">
+							<div class="e-pb-name">Johny Inactive</div>
+							<div class="e-pb-job">Doing Something</div>
+						</div>	
+					</a> <!--pool-box-->
 				</div> <!--pool-groups-->
 			</div> <!--wrapper-->
-		</div>
+		</div> <!--page-->
 		
 		<!--script src="js/jquery-2.1.4.min.js"></script>
 		<script src="js/main.js"></script-->

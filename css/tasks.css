@@ -1,0 +1,55 @@
+/*Tasks*/
+
+.e-add-task {
+	width: 20px;
+	height: 20px;
+	padding: 5px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+	box-sizing: content-box;
+}
+
+.e-add-task span {
+	display: block;
+	background: #fff;
+	position: absolute;
+}
+
+.e-add-task span:first-child {
+	width: 2px;
+	height: 20px;
+	top: 5px;
+	left: 14px;
+}
+
+.e-add-task span:last-child {
+	width: 20px;
+	height: 2px;
+	top: 14px;
+	left: 5px;
+}
+
+.e-task-group > * {
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	border-bottom: 2px solid #EAEAEA;
+	padding: 0 3%;	
+}
+
+.e-task-box-header {
+	background: #F5F5F5;
+	font-weight: bold;	
+}
+
+.e-task-box-item {
+	display: block;
+	text-decoration: none;
+	color: #000;
+}

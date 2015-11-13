@@ -1,0 +1,23 @@
+/*Add task*/
+
+.e-task-attr, .task-attr-add li {
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	border-bottom: 2px solid #EAEAEA;
+	padding: 0 3%;
+	display: block;	
+}
+
+.e-task-attr-contains {
+	background: url('../images/down.png') 95% 50% no-repeat;
+}
+
+.e-done {
+	position: absolute;
+	font-size: 18px;
+	color: #fff;
+	right: 20px;
+	top: 15px;
+	text-decoration: none;
+}

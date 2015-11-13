@@ -1,0 +1,142 @@
+/*Pool*/
+
+.e-pool-options {
+	
+}
+
+.e-pool-option {
+	padding: 0 3%;
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 2px solid #EAEAEA;
+}
+
+.e-pool-option span {
+	display: block;
+	float: left;
+}
+
+.e-switcher {
+    position: relative; 
+    width: 75px;
+    height: 40px;
+    float: right;
+    border-radius: 40px;
+    margin: 9px 0 0 0;
+    z-index: 1;
+}
+
+.e-switcher input[type="checkbox"] {
+    display: none;
+}
+
+.e-switcher-dot {
+    display: block; 
+    cursor: pointer;
+    border: 1px solid #BFBFBF; 
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    margin: -2px 0 0 -2px;
+	box-shadow: 0px 0px 5px 1px #888888;
+	position: absolute;
+	right: 35px;
+	transition: all 0.3s;
+	z-index: 5;
+	background: #fff; 
+}
+
+.e-switcher input[type="checkbox"]:checked + .e-switcher-dot {
+	box-shadow: 0px 0px 5px 1px #11C1F3;
+	border: 1px solid #11C1F3;
+    -ms-transform: translateX(33px);
+    -webkit-transform: translateX(33px);
+    transform: translateX(33px);
+}
+
+.e-switch-back {
+	position: absolute;
+	width: 75px;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    z-index: 3;
+    margin: -2px 0 0 -2px;
+    border: 2px solid #BFBFBF;
+    transition: all 0.3s;
+}
+
+.e-switcher input[type="checkbox"]:checked + .e-switcher-dot + .e-switch-back {
+	background: #11C1F3;
+	border: 2px solid #11C1F3;
+} 
+
+.e-pool-search {
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	border: 0;
+	outline: 0;
+	padding: 0 0 0 30px;
+	background: url('../images/search.png') 0 50% no-repeat;
+	color: #BFBFBF;
+	font-size: 16px;
+}
+
+.e-pool-header {
+	background: #F5F5F5;
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	padding: 0 3%;
+	border-bottom: 2px solid #EAEAEA;
+}
+
+.e-pool-box {
+	padding: 3%;
+	border-bottom: 2px solid #EAEAEA;
+	display: block;
+	color: #000;
+}
+
+.e-pool-box:after, .e-pool-group:after {
+	content: ' ';
+	clear: both;
+	display: block;
+}
+
+.e-pb-image {
+	border: 1px solid #ADADAD;
+	width: 25%;
+	display: inline-block;
+}
+
+.e-pb-image img {
+	display: block;
+	width: 100%;
+}
+
+.e-pb-info {
+	padding: 0 0 0 3%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.e-pb-name {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.e-pb-job {
+	font-size: 14px;
+	margin: 5px 0 0 0;
+}
+
+.e-pb-tasks {
+	margin: 10px 0 0 0;
+	font-size: 12px;
+}
+
+.e-pb-tasks span {
+	font-weight: bold;
+}

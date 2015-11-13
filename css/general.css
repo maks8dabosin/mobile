@@ -1,0 +1,98 @@
+/*GENERAL*/
+
+html, body {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden; 
+}
+
+body {
+	font-size: 100%;
+	font-family: Verdana;
+}
+
+body * {
+	box-sizing: border-box;
+}
+
+::-webkit-input-placeholder {color:#BFBFBF}
+::-moz-placeholder          {color:#BFBFBF}
+:-moz-placeholder           {color:#BFBFBF}
+:-ms-input-placeholder      {color:#BFBFBF}
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
+
+.e-smaller-please {
+	display: none;
+}
+
+.e-page {
+	width: 100%;
+	height: 100%;
+}
+
+.e-wrapper {
+	width: 100%;
+	position: absolute;
+	top: 50px;
+}
+
+/*Header*/
+
+.e-page-header {
+	position: fixed;
+	z-index: 50;
+	top: 0;
+	left: 0;
+	height: 50px;
+	background: #11C1F3;
+	width: 100%;
+}
+
+.e-navbar {
+	padding: 10px;
+	position: absolute;
+	top: 7px;
+	left: 10px;
+	outline: 0;
+	background: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.e-navbar:hover {
+	background: #0E8EC0;
+	border: 1px solid #fff;
+}
+
+.e-navbar-stripe {
+	width: 20px;
+	height: 2px;
+	display: block;
+	margin: 0 0 4px 0;
+	background: #fff;
+	border-radius: 2px;
+}
+
+.e-navbar .e-navbar-stripe:last-child {
+	margin: 0;
+}
+
+.e-header-header {
+	color: #fff;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+

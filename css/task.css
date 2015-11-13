@@ -1,0 +1,36 @@
+/*Task*/
+
+.e-task {
+	padding: 20px 0;
+	line-height: 1.4;
+}
+
+.e-task-inner {
+	padding: 0 3%;
+}
+
+.e-task-inner > div {
+	padding: 5px 0;
+}
+
+.e-task-header {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.e-task-descr {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.e-delete {
+	width: 100%;
+	background: #EF473A;
+	height: 50px;
+	font-size: 18px;
+	color: #fff;
+	outline: 0;
+	border: 0;
+	margin: 15px 0 0 0;
+	cursor: pointer;
+}

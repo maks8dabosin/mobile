@@ -1,16 +1,16 @@
 @media (min-width: 480px) and (max-width: 769px) {
-	.pool-group:after {
+	.e-pool-group:after {
 		content: ' ';
 		display: block;
 		clear: both;
 	}
 
-	.pool-box {
+	.e-pool-box {
 		width: 50%;
 		float: left;
 	}
 
-	.pool-box:nth-child(even) {
+	.e-pool-box:nth-child(even) {
 		background: url('../images/border-cheat.png') 100% 0 repeat-y;
 	}
 }
