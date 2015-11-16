@@ -4,6 +4,11 @@
 	background: url('../images/down.png') 95% 50% no-repeat;
 }
 
+.e-task-add {
+	line-height: 50px;
+	font-size: 16px;
+}
+
 .e-done {
 	position: absolute;
 	font-size: 18px;
@@ -13,7 +18,7 @@
 	text-decoration: none;
 }
 
-.e-task-add input {
+.e-task-add-boxes input {
 	border: 0;
 	outline: 0;
 }

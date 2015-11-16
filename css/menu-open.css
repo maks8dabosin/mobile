@@ -1,11 +1,7 @@
 .e-page {
-	position: absolute;
-	top: 0;
-	left: 75%;
-}
-
-.e-page-header {
-	position: absolute;
+	overflow-x: hidden;
+    position: relative;
+    left: 75%;
 }
 
 .e-page-nav {
@@ -15,6 +11,13 @@
 	left: 0;
 	border-right: 2px solid #11C1F3;
 	height: 100%;
+	z-index: 1000;
+	background: #fff;
+}
+
+
+.e-page-header {
+	position: absolute;
 }
 
 .e-page-nav ul li {
@@ -39,4 +42,5 @@
 	border: 0;
 	margin: 15px 0 0 0;
 	cursor: pointer;
+	display: block;
 }
