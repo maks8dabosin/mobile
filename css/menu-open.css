@@ -1,32 +1,35 @@
-.page {
+.e-page {
 	position: absolute;
 	top: 0;
 	left: 75%;
 }
 
-.page-header {
+.e-page-header {
 	position: absolute;
 }
 
-.page-nav {
+.e-page-nav {
 	width: 75%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	border-right: 2px solid #11C1F3;
+	height: 100%;
 }
 
-.page-nav ul li {
+.e-page-nav ul li {
 	height: 50px;
 	line-height: 50px;
-	border-bottom: 2px solid #EAEAEA;
-	padding: 0 3%;
 	display: block;	
 }
 
-.page-nav ul li a {
+.e-page-nav ul li a {
 	text-decoration: none;
 	color: #000;
 	font-size: 17px;
 }
 
-.exit {
+.e-exit {
 	width: 100%;
 	background: #EF473A;
 	height: 50px;

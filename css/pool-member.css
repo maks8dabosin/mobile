@@ -55,11 +55,13 @@
 
 .e-member-task-header {
 	background: #F5F5F5;
-	font-weight: bold;	
+	font-weight: bold;
+	line-height: 50px;	
 }
 
 .e-member-task-item {
 	display: block;
 	text-decoration: none;
 	color: #000;
+	line-height: 50px;
 }

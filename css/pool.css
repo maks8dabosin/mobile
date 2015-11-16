@@ -88,26 +88,20 @@
 	height: 50px;
 	line-height: 50px;
 	font-size: 16px;
-	padding: 0 3%;
-	border-bottom: 2px solid #EAEAEA;
+	clear: both;
 }
 
 .e-pool-box {
-	padding: 3%;
-	border-bottom: 2px solid #EAEAEA;
 	display: block;
 	color: #000;
-}
-
-.e-pool-box:after, .e-pool-group:after {
-	content: ' ';
-	clear: both;
-	display: block;
+	padding: 3%;
+	text-decoration: none;
 }
 
 .e-pb-image {
-	border: 1px solid #ADADAD;
 	width: 25%;
+	vertical-align: top;
+	border: 1px solid #ADADAD;
 	display: inline-block;
 }
 
@@ -118,8 +112,9 @@
 
 .e-pb-info {
 	padding: 0 0 0 3%;
-	display: inline-block;
 	vertical-align: top;
+	width: 72%;
+	display: inline-block;
 }
 
 .e-pb-name {

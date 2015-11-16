@@ -26,11 +26,11 @@
 .e-delete {
 	width: 100%;
 	background: #EF473A;
-	height: 50px;
 	font-size: 18px;
 	color: #fff;
 	outline: 0;
 	border: 0;
 	margin: 15px 0 0 0;
 	cursor: pointer;
+	line-height: 50px;
 }

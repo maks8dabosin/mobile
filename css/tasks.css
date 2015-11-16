@@ -15,6 +15,13 @@
 	box-sizing: content-box;
 }
 
+.e-task-item {
+	display: block;
+	text-decoration: none;
+	color: #000;
+	line-height: 50px;
+}
+
 .e-add-task span {
 	display: block;
 	background: #fff;
@@ -35,21 +42,8 @@
 	left: 5px;
 }
 
-.e-task-group > * {
-	height: 50px;
-	line-height: 50px;
-	font-size: 14px;
-	border-bottom: 2px solid #EAEAEA;
-	padding: 0 3%;	
-}
-
 .e-task-box-header {
 	background: #F5F5F5;
-	font-weight: bold;	
-}
-
-.e-task-box-item {
-	display: block;
-	text-decoration: none;
-	color: #000;
+	font-weight: bold;
+	line-height: 50px;	
 }
