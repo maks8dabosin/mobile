@@ -22,20 +22,20 @@
 	line-height: 50px;
 }
 
-.e-add-task span {
+.e-add-stripe {
 	display: block;
 	background: #fff;
 	position: absolute;
 }
 
-.e-add-task span:first-child {
+.e-add-stripe:first-child {
 	width: 2px;
 	height: 20px;
 	top: 5px;
 	left: 14px;
 }
 
-.e-add-task span:last-child {
+.e-add-stripe:last-child {
 	width: 20px;
 	height: 2px;
 	top: 14px;

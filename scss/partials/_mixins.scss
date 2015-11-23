@@ -1,0 +1,19 @@
+@mixin transformx($tr){
+	-ms-transform: translateX($tr);
+    -webkit-transform: translateX($tr);
+    transform: translateX($tr);
+}
+
+@mixin input-placeholder-color($ip){
+	::-webkit-input-placeholder {color:$ip}
+	::-moz-placeholder          {color:$ip}
+	:-moz-placeholder           {color:$ip}
+	:-ms-input-placeholder      {color:$ip}
+}
+
+@mixin input-placeholder-focus($ipf) {
+	:focus::-webkit-input-placeholder {color: $ipf}
+	:focus::-moz-placeholder          {color: $ipf}
+	:focus:-moz-placeholder           {color: $ipf}
+	:focus:-ms-input-placeholder      {color: $ipf}
+}

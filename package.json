@@ -1,0 +1,30 @@
+{
+  "name": "mobile-app",
+  "version": "1.0.0",
+  "description": "test mobile app",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-ruby-sass": "^2.0.5"
+  },
+  "scripts": {
+    "test": "aloha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maks8dabosin/mobile.git"
+  },
+  "keywords": [
+    "ahaha"
+  ],
+  "author": "Maks Dabosin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maks8dabosin/mobile/issues"
+  },
+  "homepage": "https://github.com/maks8dabosin/mobile"
+}

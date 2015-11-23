@@ -20,13 +20,13 @@
 	position: absolute;
 }
 
-.e-page-nav ul li {
+.e-nav-item {
 	height: 50px;
 	line-height: 50px;
 	display: block;	
 }
 
-.e-page-nav ul li a {
+.e-nav-link {
 	text-decoration: none;
 	color: #000;
 	font-size: 17px;

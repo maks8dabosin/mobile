@@ -1,16 +1,19 @@
 /*Member*/
 
 .e-back {
-	background: url('../images/back.png') 0 50% no-repeat;
-	padding: 0 0 0 25px;
 	height: 30px;
 	color: #fff;
 	position: absolute;
 	top: 10px;
 	left: 20px;
 	font-size: 18px;
-	line-height: 30px;
+	line-height: 24px;
 	text-decoration: none;
+}
+
+.e-back .ion-chevron-left {
+	margin: 0 10px 0 0;
+    font-size: 24px;
 }
 
 .e-member-photo {
@@ -39,18 +42,6 @@
 .e-member-tasks {
 	margin: 25px 0 0 0;
 	border: 2px solid #EAEAEA;
-}
-
-.e-member-group > * {
-	height: 50px;
-	line-height: 50px;
-	font-size: 14px;
-	border-bottom: 2px solid #EAEAEA;
-	padding: 0 3%;	
-}
-
-.e-member-group-done > *:last-child {
-	border-bottom: none; 
 }
 
 .e-member-task-header {
