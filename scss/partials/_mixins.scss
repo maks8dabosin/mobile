@@ -4,11 +4,11 @@
     transform: translateX($tr);
 }
 
-@mixin input-placeholder-color($ip){
-	::-webkit-input-placeholder {color:$ip}
-	::-moz-placeholder          {color:$ip}
-	:-moz-placeholder           {color:$ip}
-	:-ms-input-placeholder      {color:$ip}
+@mixin input-placeholder-color($ipc){
+	::-webkit-input-placeholder {color:$ipc}
+	::-moz-placeholder          {color:$ipc}
+	:-moz-placeholder           {color:$ipc}
+	:-ms-input-placeholder      {color:$ipc}
 }
 
 @mixin input-placeholder-focus($ipf) {

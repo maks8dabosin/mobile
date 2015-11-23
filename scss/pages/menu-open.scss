@@ -1,0 +1,45 @@
+.e-page {
+	overflow-x: hidden;
+    position: relative;
+}
+
+.e-page-nav {
+	width: 50%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	border-right: 2px solid #11C1F3;
+	height: 100%;
+	z-index: 1000;
+	background: #fff;
+	display: none;
+}
+
+.e-page-header {
+	position: absolute;
+}
+
+.e-nav-item {
+	height: $li-height;
+	line-height: $li-line-height;
+	display: block;	
+}
+
+.e-nav-link {
+	text-decoration: none;
+	color: $base-color;
+	font-size: $base-font-size + 1;
+}
+
+.e-exit {
+	width: 100%;
+	background: #EF473A;
+	height: $li-height;
+	font-size: 18px;
+	color: #fff;
+	outline: 0;
+	border: 0;
+	margin: 15px 0 0 0;
+	cursor: pointer;
+	display: block;
+}

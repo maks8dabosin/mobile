@@ -1,0 +1,13 @@
+
+
+@media (min-width: 480px) /*and (orientation: landscape)*/ {
+
+	.e-pool-box {
+		width: 50%;
+		display: inline-block;
+	}
+
+	.e-pool-box:nth-of-type(odd) {
+		border-right: 2px solid #EAEAEA;
+	}
+}

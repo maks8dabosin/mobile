@@ -378,31 +378,35 @@ body {
   font-family: Verdana;
   font-size: 16px; }
 
+ul {
+  list-style: none;
+  padding: 0; }
+
 * {
   box-sizing: border-box; }
 
 ::-webkit-input-placeholder {
-  color: 33px; }
+  color: #BFBFBF; }
 
 ::-moz-placeholder {
-  color: 33px; }
+  color: #BFBFBF; }
 
 :-moz-placeholder {
-  color: 33px; }
+  color: #BFBFBF; }
 
 :-ms-input-placeholder {
-  color: 33px; }
+  color: #BFBFBF; }
 
-::-webkit-input-placeholder {
+:focus::-webkit-input-placeholder {
   color: transparent; }
 
-::-moz-placeholder {
+:focus::-moz-placeholder {
   color: transparent; }
 
-:-moz-placeholder {
+:focus:-moz-placeholder {
   color: transparent; }
 
-:-ms-input-placeholder {
+:focus:-ms-input-placeholder {
   color: transparent; }
 
 input[type='text'] {
@@ -470,6 +474,319 @@ input[type='text'] {
   text-align: center; }
 
 .e-list-item {
-  font-size: 16px;
+  font-size: 14px;
   border-bottom: 2px solid #EAEAEA;
   padding: 0 3%; }
+
+.ahahahah {
+  background: #000000; }
+
+/*Pool*/
+.e-pool-option {
+  padding: 0 3%;
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 2px solid #EAEAEA; }
+
+.e-pool-option span {
+  display: block;
+  float: left; }
+
+.e-switcher {
+  position: relative;
+  width: 75px;
+  height: 40px;
+  float: right;
+  border-radius: 40px;
+  margin: 9px 0 0 0;
+  z-index: 1; }
+
+.e-switcher input[type="checkbox"] {
+  display: none; }
+
+.e-switcher-dot {
+  display: block;
+  cursor: pointer;
+  border: 1px solid #BFBFBF;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  margin: -2px 0 0 -2px;
+  box-shadow: 0px 0px 5px 1px #888888;
+  position: absolute;
+  right: 35px;
+  transition: all 0.3s;
+  z-index: 5;
+  background: #fff; }
+
+.e-switcher input[type="checkbox"]:checked + .e-switcher-dot {
+  box-shadow: 0px 0px 5px 1px #11C1F3;
+  border: 1px solid #11C1F3;
+  -ms-transform: translateX(33px);
+  -webkit-transform: translateX(33px);
+  transform: translateX(33px); }
+
+.e-switch-back {
+  position: absolute;
+  width: 75px;
+  height: 40px;
+  border-radius: 40px;
+  background: #fff;
+  z-index: 3;
+  margin: -2px 0 0 -2px;
+  border: 2px solid #BFBFBF;
+  transition: all 0.3s; }
+
+.e-switcher input[type="checkbox"]:checked + .e-switcher-dot + .e-switch-back {
+  background: #11C1F3;
+  border: 2px solid #11C1F3; }
+
+.e-pool-search {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  border: 0;
+  outline: 0;
+  padding: 0 0 0 30px;
+  background: url("../images/search.png") 0 50% no-repeat;
+  color: #BFBFBF;
+  font-size: 16px; }
+
+.e-pool-header {
+  background: #F5F5F5;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  clear: both; }
+
+.e-pool-box {
+  display: block;
+  color: #000;
+  padding: 3%;
+  text-decoration: none; }
+
+.e-pb-image {
+  width: 25%;
+  vertical-align: top;
+  border: 1px solid #ADADAD;
+  display: inline-block; }
+
+.e-pb-image img {
+  display: block;
+  width: 100%; }
+
+.e-pb-info {
+  padding: 0 0 0 3%;
+  vertical-align: top;
+  width: 72%;
+  display: inline-block; }
+
+.e-pb-name {
+  font-size: 16px;
+  font-weight: bold; }
+
+.e-pb-job {
+  font-size: 14px;
+  margin: 5px 0 0 0; }
+
+.e-pb-tasks {
+  margin: 10px 0 0 0;
+  font-size: 12px; }
+
+.e-pb-tasks span {
+  font-weight: bold; }
+
+/*Member*/
+.e-back {
+  height: 30px;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none; }
+
+.e-back .ion-chevron-left {
+  margin: 0 10px 0 0;
+  font-size: 24px; }
+
+.e-member-photo {
+  border-bottom: 2px solid #EAEAEA;
+  text-align: center; }
+
+.e-member-photo img {
+  width: 100%;
+  max-width: 380px; }
+
+.e-member-info {
+  padding: 0 3%; }
+
+.e-member-name {
+  font-size: 22px;
+  padding: 10px 0; }
+
+.e-member-job {
+  font-weight: bold; }
+
+.e-member-tasks {
+  margin: 25px 0 0 0;
+  border: 2px solid #EAEAEA; }
+
+.e-member-task-header {
+  background: #F5F5F5;
+  font-weight: bold;
+  line-height: 50px; }
+
+.e-member-task-item {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  line-height: 50px; }
+
+/*Tasks*/
+.e-add-task {
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  display: block;
+  background: none;
+  box-sizing: content-box; }
+
+.e-task-item {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  line-height: 50px; }
+
+.e-add-stripe {
+  display: block;
+  background: #fff;
+  position: absolute; }
+
+.e-add-stripe:first-child {
+  width: 2px;
+  height: 20px;
+  top: 5px;
+  left: 14px; }
+
+.e-add-stripe:last-child {
+  width: 20px;
+  height: 2px;
+  top: 14px;
+  left: 5px; }
+
+.e-task-box-header {
+  background: #F5F5F5;
+  font-weight: bold;
+  line-height: 50px; }
+
+/*Task*/
+.e-task {
+  padding: 20px 0;
+  line-height: 1.4; }
+
+.e-task-inner {
+  padding: 0 3%; }
+
+.e-task-inner > div {
+  padding: 5px 0; }
+
+.e-task-header {
+  font-size: 20px;
+  font-weight: bold; }
+
+.e-task-descr {
+  font-size: 16px;
+  font-weight: bold; }
+
+.e-delete {
+  width: 100%;
+  background: #EF473A;
+  font-size: 18px;
+  color: #fff;
+  outline: 0;
+  border: 0;
+  margin: 15px 0 0 0;
+  cursor: pointer;
+  line-height: 50px; }
+
+/*Add task*/
+.e-task-attr-contains {
+  background: url("../images/down.png") 95% 50% no-repeat; }
+
+.e-task-add {
+  line-height: 50px;
+  font-size: 16px; }
+
+.e-done {
+  position: absolute;
+  font-size: 18px;
+  color: #fff;
+  right: 20px;
+  top: 15px;
+  text-decoration: none; }
+
+.e-task-add-input {
+  border: 0;
+  outline: 0; }
+
+.e-page {
+  overflow-x: hidden;
+  position: relative; }
+
+.e-page-nav {
+  width: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-right: 2px solid #11C1F3;
+  height: 100%;
+  z-index: 1000;
+  background: #fff;
+  display: none; }
+
+.e-page-header {
+  position: absolute; }
+
+.e-nav-item {
+  height: 50px;
+  line-height: 50px;
+  display: block; }
+
+.e-nav-link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 17px; }
+
+.e-exit {
+  width: 100%;
+  background: #EF473A;
+  height: 50px;
+  font-size: 18px;
+  color: #fff;
+  outline: 0;
+  border: 0;
+  margin: 15px 0 0 0;
+  cursor: pointer;
+  display: block; }
+
+@media (min-width: 480px) {
+  .e-pool-box {
+    width: 50%;
+    display: inline-block; }
+
+  .e-pool-box:nth-of-type(odd) {
+    border-right: 2px solid #EAEAEA; } }
+@media (min-width: 768px) {
+  .e-page-nav {
+    display: block; }
+
+  .e-page {
+    left: 50%; } }

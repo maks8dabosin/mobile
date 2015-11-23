@@ -10,12 +10,17 @@ body {
 	font-size: $base-font-size;
 }
 
+ul {
+	list-style: none;
+	padding: 0;
+}
+
 * {
 	box-sizing: border-box;
 }
 
-@include input-placeholder-color(33px);
-@include input-placeholder-color(transparent);
+@include input-placeholder-color(#BFBFBF);
+@include input-placeholder-focus(transparent);
 
 input[type='text'] {
 	font-size: $base-font-size;

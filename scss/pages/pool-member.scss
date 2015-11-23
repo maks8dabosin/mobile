@@ -1,0 +1,58 @@
+/*Member*/
+
+.e-back {
+	height: 30px;
+	color: #fff;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	font-size: $bigger-font-size;
+	line-height: 24px;
+	text-decoration: none;
+}
+
+.e-back .ion-chevron-left {
+	margin: 0 10px 0 0;
+    font-size: $bigger-font-size + 6;
+}
+
+.e-member-photo {
+	border-bottom: $li-border-bottom;
+	text-align: center;
+}
+
+.e-member-photo img {
+	width: 100%;
+	max-width: 380px;
+}
+
+.e-member-info {
+	padding: $li-padding;
+}
+
+.e-member-name {
+	font-size: $bigger-font-size + 4;
+	padding: 10px 0;
+}
+
+.e-member-job {
+	font-weight: bold;
+}
+
+.e-member-tasks {
+	margin: 25px 0 0 0;
+	border: $li-border-bottom;
+}
+
+.e-member-task-header {
+	background: #F5F5F5;
+	font-weight: bold;
+	line-height: $li-line-height;	
+}
+
+.e-member-task-item {
+	display: block;
+	text-decoration: none;
+	color: $base-color;
+	line-height: $li-line-height;
+}

@@ -1,0 +1,24 @@
+/*Add task*/
+
+.e-task-attr-contains {
+	background: url('../images/down.png') 95% 50% no-repeat;
+}
+
+.e-task-add {
+	line-height: $li-line-height;
+	font-size: 16px;
+}
+
+.e-done {
+	position: absolute;
+	font-size: $bigger-font-size;
+	color: #fff;
+	right: 20px;
+	top: 15px;
+	text-decoration: none;
+}
+
+.e-task-add-input {
+	border: 0;
+	outline: 0;
+}

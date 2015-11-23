@@ -1,0 +1,49 @@
+/*Tasks*/
+
+.e-add-task {
+	width: 20px;
+	height: 20px;
+	padding: 5px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	display: block;
+	background: none;
+	box-sizing: content-box;
+}
+
+.e-task-item {
+	display: block;
+	text-decoration: none;
+	color: $base-color;
+	line-height: $li-line-height;
+}
+
+.e-add-stripe {
+	display: block;
+	background: #fff;
+	position: absolute;
+}
+
+.e-add-stripe:first-child {
+	width: 2px;
+	height: 20px;
+	top: 5px;
+	left: 14px;
+}
+
+.e-add-stripe:last-child {
+	width: 20px;
+	height: 2px;
+	top: 14px;
+	left: 5px;
+}
+
+.e-task-box-header {
+	background: #F5F5F5;
+	font-weight: bold;
+	line-height: $li-line-height;	
+}
